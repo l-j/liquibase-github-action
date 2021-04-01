@@ -37,6 +37,7 @@ steps:
 The `operation` input expects one of the following:
 *   update
 *   updateCount
+*   updateTestingRollback 
 *   tag
 *   updateToTag
 *   rollback
@@ -55,6 +56,10 @@ The `operation` input expects one of the following:
 *   classpath
 *   changeLogFile
 *   count
+
+### updateTestingRollback
+*   classpath
+*   changeLogFile
 
 #### tag
 *   tag

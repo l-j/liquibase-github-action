@@ -48,6 +48,12 @@ function validate_operation() {
         check_required_param updateCount count $COUNT true
         ;;
 
+    updateTestingRollback)
+        check_required_param updateCount classpath $CLASSPATH
+        check_required_param updateCount changeLogFile $CHANGELOGFILE
+        check_required_param updateCount url $URL
+        ;;
+
     tag)
         check_required_param tag url $URL
         check_required_param tag tag $TAG true
